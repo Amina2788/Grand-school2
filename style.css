@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Itim", cursive;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+.div-nav1 {
+  width: 100%;
+  height: 90px;
+  background-color: #184586;
+  display: flex;
+}
+.div-text {
+  display: flex;
+  width: 60%;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  left: 40px;
+}
+.texts {
+  margin-top: 27px;
+  margin-left: 60px;
+}
+.texts:hover {
+  color: #f5b521;
+}
+.div-num {
+  position: relative;
+  left: 350px;
+  display: flex;
+}
+.num-img {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 10px;
+}
+.num {
+  color: white;
+  margin: 20px;
+  font-size: 30px;
+}
+.num:hover {
+  color: #f5b521;
+}
+
+.video_media {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+.video {
+  position: relative;
+  padding-bottom: 500px;
+  /* object-fit: scale-down; */
+}
+
+.intro {
+  max-height: 100vh;
+  overflow: hidden;
+  /* margin-top: -17px; */
+}
+
+.text0 {
+  animation-name: text;
+  letter-spacing: 2.3px;
+  color: black;
+  margin-left: 300px;
+  position: relative;
+  text-align: start;
+  font-weight: 100px;
+  bottom: 300px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.lets {
+  width: 170px;
+  padding: 17px;
+  color: #f5b521;
+  background-color: white;
+  border: none;
+  border-radius: 35px;
+  border: 1px solid #f5b521;
+  font-size: 15px;
+}
+
+.lets:hover {
+  background-color: #184586;
+  color: white;
+  transition: all ease 1s;
+}
+.sec-plan {
+  margin-left: 200px;
+}
+.plan-text1 {
+  margin-top: 150px;
+  top: 100px;
+}
+.plan-text2 {
+  margin-top: -185px;
+}
+.yellow-text {
+  width: 40px;
+  height: 700px;
+  background-color: #f5b521;
+}
+.bg-text {
+  color: #184586;
+  font-size: 45px;
+  margin-left: 200px;
+}
+.text-ul {
+  margin-top: 30px;
+}
+.text1 {
+  color: black;
+  font-size: 30px;
+  margin-left: 220px;
+}
+
+.bg-text1 {
+  color: #184586;
+  font-size: 45px;
+  margin-left: 850px;
+}
+.text2 {
+  color: black;
+  font-size: 25px;
+  margin-left: 870px;
+}
+.img-chek1 {
+  width: 100px;
+  height: 100px;
+}
+.img-chek2 {
+  width: 100px;
+  height: 100px;
+}
+.img-chek2 {
+  width: 100px;
+  height: 100px;
+}
+.btn {
+  --color: #f5b521;
+  --color2: rgb(10, 25, 30);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 0.3px solid var(--color);
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 600;
+  font-size: 17px;
+  font-family: "Roboto", "Segoe UI", sans-serif;
+  text-transform: uppercase;
+  color: var(--color);
+}
+
+.btn::after,
+.btn::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: 0.5s ease-out;
+  background-color: var(--color);
+}
+
+.btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+
+.btn:hover {
+  color: var(--color2);
+}
+
+.btn:active {
+  filter: brightness(0.7);
+  transform: scale(0.98);
+}
+
+.sec-sw {
+  width: 100%;
+  height: 900px;
+  margin-top: 300px;
+  background-color: #184586;
+}
+.sw-text {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+.swiper {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.sw-img {
+  width: 100%;
+  height: 70%;
+}
+.hr-sw {
+  width: 80%;
+  margin-top: 350px;
+  margin-left: 180px;
+}
+.swiper-pagination-bullet {
+  opacity: 0;
+}
